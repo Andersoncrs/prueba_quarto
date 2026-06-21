@@ -3,6 +3,7 @@
 # porque la rama 'gh-pages' se encargará exclusivamente de hospedar estos archivos.
 /_site/
 /.quarto/
+/about.qmd
 
 # === HISTORIAL DE EJECUCIÓN (OPCIONAL) ===
 # Si decides congelar tus ejecuciones localmente, puedes elegir subir o no la carpeta _freeze.

@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9b17c0e8aa1e8eb02081e799d9d63149.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6d71c1e43951276e81825b94cf59420a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,18 +96,22 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Sobre Mí &amp; Educación</span></a>
+  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-proyectos-de-ml" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Proyectos de ML</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-proyectos-de-ciencia-de-datos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Proyectos de Ciencia de Datos</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-proyectos-de-ml">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-proyectos-de-ciencia-de-datos">    
         <li>
     <a class="dropdown-item" href="./proyectos/proyecto_spam/index.html">
- <span class="dropdown-text">Detección de Spam (NLP)</span></a>
+ <span class="dropdown-text">📩 Detección de Spam (NLP)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./proyectos/proyecto_imagenes/index.html">
- <span class="dropdown-text">Visión Artificial (CNN)</span></a>
+ <span class="dropdown-text">🖼️ Clasificación de Imágenes (CNN)</span></a>
   </li>  
     </ul>
   </li>
@@ -576,6 +580,35 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "Andersoncrs/prueba_quarto";
+    script.dataset.repoId = "R_kgDOTAk6bg";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDOTAk6bs4C_kpo";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 
 

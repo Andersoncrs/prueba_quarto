@@ -1,0 +1,53 @@
+---
+title: "Anderson Rodriguez"
+subtitle: "Científico de Datos"
+image: images/perfil.jpg # Coloca una foto tuya en esa ruta
+about:
+  template: trestles # El diseño de dos columnas ideal para ti
+  image-width: 14em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: "[https://www.linkedin.com/in/andersoncrs/](https://www.linkedin.com/in/andersoncrs/)"
+    - icon: github
+      text: GitHub
+      href: "[https://github.com/Andersoncrs](https://github.com/Andersoncrs)"
+    - icon: envelope
+      text: Email
+      href: mailto:andersoncamilo.rodriguez.s@gmail.com
+---
+
+### ¡Hola! 
+
+Soy estudiante de último semestre de Ingeniería de Sistemas en la Universidad Nacional Abierta y a Distancia (UNAD), un apasionado por la Ciencia de Datos y el Machine Learning. En este espacio podrás encontrar diversos proyectos que estaré desarrollando sobre estas temáticas tan interesantes, además de aportes que considero pueden resultar útiles para la comunidad. 
+
+También disfruto mucho programar utilizando **Java** para desarrollos de Backend, combinando la robustez de la programación estructurada con la agilidad del análisis estadístico de datos.
+
+---
+
+## 🎓 Educación y Certificaciones
+
+:::{#education-list}
+
+### **Ingeniería de Sistemas**
+*Universidad Nacional Abierta y a Distancia (UNAD)* | *Último Semestre*
+
+### **Análisis de Datos - Nivel Integrador**
+*Universidad Sergio Arboleda*
+
+### **Microsoft Office Specialist - Excel 2019 Expert**
+*Microsoft Certification*
+
+### **Certificado Profesional de Análisis de Datos de Google**
+*Google - Coursera*
+
+### **Analítica de Datos**
+*Universidad Distrital Francisco José de Caldas*
+
+:::
+
+---
+
+## ✉️ Contacto
+Si deseas colaborar en algún proyecto, tienes preguntas sobre mis análisis o simplemente quieres conectar, no dudes en escribirme a través de cualquiera de mis redes sociales o directamente a mi correo electrónico. ¡Siempre estoy abierto a nuevas ideas y debates técnicos!

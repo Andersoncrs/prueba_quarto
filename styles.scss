@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+// 1. Importar las tipografías de Google Fonts
+@import url('[https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap)');
+
+// 2. Mapear tus variables a las variables de Bootstrap/Quarto
+$font-family-sans-serif: "Source Sans 3", -apple-system, sans-serif;
+$headings-font-family: "Sora", sans-serif;
+
+// Paleta de Colores de tu index.html
+$primary: #0f766e;        // tu variable --brand
+$primary-hover: #115e59;  // tu variable --brand-strong
+$warning: #d97706;        // tu variable --accent
+$body-bg: #f5f4ef;        // tu variable --bg
+$body-color: #1d2939;     // tu variable --ink
+$card-bg: #ffffff;
+
+// Personalización de componentes de Quarto
+$navbar-bg: #0b1224;      // El color de tu barra lateral
+$navbar-fg: #f8fafc;
+
+/*-- scss:rules --*/
+
+// Recrear tu hermoso fondo con gradientes radiales de tu index.html
+body {
+  background: 
+    radial-gradient(circle at 15% 12%, rgba(250, 204, 21, 0.26), transparent 44%),
+    radial-gradient(circle at 87% 20%, rgba(20, 184, 166, 0.2), transparent 38%),
+    linear-gradient(160deg, #f5f4ef 0%, #fffaf0 100%) !important;
+  background-attachment: fixed;
+}
+
+// Estilo para las tarjetas de proyectos para que se vean idénticas a tu diseño
+.card {
+  border: 1px solid #d7dfeb !important;
+  border-radius: 20px !important;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.09) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.15) !important;
+  }
+}
+
+// Estilo de los Badges (Chips) de tecnologías
+.badge {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 6px 12px;
+}
