@@ -1,0 +1,22 @@
+---
+title: "Clasificación de Imágenes por Computadora"
+author: "Anderson"
+date: today
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+## 1. Introducción
+Este proyecto consiste en un sistema de visión artificial basado en Redes Neuronales Convolucionales (CNN) diseñado para catalogar imágenes en múltiples clases.
+
+## 2. Historial de Pérdida en el Entrenamiento
+Para validar que nuestra red neuronal no esté sufriendo de *overfitting* (sobreajuste), monitoreamos las curvas de entrenamiento y validación epoch tras epoch:
+
+{{< embed analisis_imagenes.ipynb#fig-loss-curves >}}
+
+## 3. Acceso al Código Técnico
+El cuaderno de laboratorio con la inicialización de los pesos de la red, aumentación de datos (data augmentation) y entrenamiento completo se encuentra disponible en:
+
+[Ver Cuaderno de Experimentos Técnico (Jupyter Notebook)](analisis_imagenes.ipynb)

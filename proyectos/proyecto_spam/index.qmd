@@ -1,0 +1,24 @@
+---
+title: "Filtro Inteligente de Spam"
+author: "Anderson"
+date: today
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+## 1. Resumen Ejecutivo
+Hemos desarrollado un filtro basado en el algoritmo de Machine Learning **Complement Naive Bayes** optimizado con técnicas de **TF-IDF**. 
+
+El modelo demuestra una gran capacidad para procesar los textos de correos entrantes y clasificarlos de manera precisa.
+
+## 2. Métricas Clave de Desempeño
+A continuación, se presenta la matriz de confusión obtenida directamente de nuestro cuaderno de experimentos de Jupyter. Note cómo minimizamos los falsos positivos para evitar catalogar correos legítimos como correo no deseado.
+
+{{< embed analisis_spam.ipynb#fig-confusion-matrix >}}
+
+## 3. Acceso al Código Técnico
+Si deseas explorar el flujo experimental paso a paso, la ingeniería de características y las pruebas de hiperparámetros, puedes consultar el cuaderno de desarrollo de Jupyter:
+
+[Ver Cuaderno de Experimentos Técnico (Jupyter Notebook)](analisis_spam.ipynb)

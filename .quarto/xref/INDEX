@@ -1,0 +1,21 @@
+{
+  "proyectos/proyecto_imagenes/analisis_imagenes.ipynb": {
+    "analisis_imagenes.html": "959b5ff9",
+    "analisis_imagenes.out.ipynb": "6a4022b7",
+    "analisis_imagenes-preview.html": "25c9611a"
+  },
+  "proyectos/proyecto_imagenes/index.qmd": {
+    "index.html": "ed91ebbe"
+  },
+  "proyectos/proyecto_spam/analisis_spam.ipynb": {
+    "analisis_spam.html": "2b717fe6",
+    "analisis_spam.out.ipynb": "c0b682be",
+    "analisis_spam-preview.html": "bd0781e9"
+  },
+  "proyectos/proyecto_spam/index.qmd": {
+    "index.html": "f3b40db5"
+  },
+  "index.qmd": {
+    "index.html": "776509f2"
+  }
+}

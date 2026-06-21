@@ -1,0 +1,34 @@
+---
+title: "Portafolio de Inteligencia Artificial y Ciencia de Datos"
+subtitle: "Análisis y Despliegue de Modelos de Aprendizaje Automático"
+author: "Anderson"
+format:
+  html:
+    toc: false
+---
+
+## Bienvenido a mi Portal de Proyectos
+
+Aquí encontrarás soluciones avanzadas aplicadas a problemas del mundo real mediante técnicas cuantitativas de Machine Learning y Deep Learning. Cada proyecto cuenta con un reporte interactivo orientado a objetivos de negocio y su correspondiente cuaderno experimental para revisión técnica exhaustiva.
+
+---
+
+## Catálogo de Proyectos Activos
+
+::: {#sample-listings .grid}
+
+::: {.g-col-6}
+### 📩 Filtro Inteligente de Spam
+Clasificación de mensajes utilizando TF-IDF y modelos bayesianos con análisis exhaustivo del procesamiento de lenguaje natural (NLP).
+
+[Explorar Proyecto y Demo →](proyectos/proyecto_spam/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-6}
+### 🖼️ Clasificación de Imágenes (CNN)
+Entrenamiento y visualización del desempeño de una Red Neuronal Convolucional para el reconocimiento óptico de patrones.
+
+[Explorar Proyecto y Demo →](proyectos/proyecto_imagenes/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+:::

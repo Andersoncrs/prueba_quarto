@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Anderson | ML Portfolio"
+  search: true # Activa el motor de búsqueda global integrado
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Inicio
+      - text: "Proyectos de ML"
+        menu:
+          - text: "Detección de Spam (NLP)"
+            href: proyectos/proyecto_spam/index.qmd
+          - text: "Visión Artificial (CNN)"
+            href: proyectos/proyecto_imagenes/index.qmd
+
+execute:
+  freeze: true # Activa la caché global para evitar compilar 50 proyectos simultáneos
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
