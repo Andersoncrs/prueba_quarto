@@ -1,0 +1,51 @@
+# === QUARTO & COMPILACIONES LOCALES ===
+# Carpeta donde Quarto genera el HTML local. No se sube a la rama 'main' 
+# porque la rama 'gh-pages' se encargará exclusivamente de hospedar estos archivos.
+/_site/
+/.quarto/
+
+# === HISTORIAL DE EJECUCIÓN (OPCIONAL) ===
+# Si decides congelar tus ejecuciones localmente, puedes elegir subir o no la carpeta _freeze.
+# Lo recomendado para portafolios sencillos es subirla para que GitHub no intente volver a correr 
+# tus notebooks si despliegas de manera remota. Sin embargo, si compilas localmente mediante
+# 'quarto publish', puedes dejarla fuera del control de versiones.
+# /_freeze/
+
+# === ARCHIVOS DE ENTORNOS VIRTUALES ===
+.conda/
+.miniconda/
+.mamba/
+env/
+venv/
+ENV/
+
+# === ARCHIVOS DE JUPYTER Y PYTHON ===
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# === CIENCIA DE DATOS: ARCHIVOS PESADOS (CRÍTICO) ===
+# Ignoramos bases de datos y archivos de datos comunes para no superar el límite de almacenamiento
+*.csv
+*.xlsx
+*.xls
+*.json
+*.sqlite
+*.db
+/data/
+/datasets/
+
+# === MODELOS ENTRENADOS DE MACHINE LEARNING ===
+# Los modelos se alojan en Hugging Face, no en tu repositorio de GitHub
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pb
+/models/
+
+# === ARCHIVOS DEL SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db

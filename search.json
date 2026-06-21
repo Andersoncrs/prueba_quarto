@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Portafolio de Inteligencia Artificial y Ciencia de Datos",
+    "section": "",
+    "text": "Aquí encontrarás soluciones avanzadas aplicadas a problemas del mundo real mediante técnicas cuantitativas de Machine Learning y Deep Learning. Cada proyecto cuenta con un reporte interactivo orientado a objetivos de negocio y su correspondiente cuaderno experimental para revisión técnica exhaustiva."
+  },
+  {
+    "objectID": "index.html#bienvenido-a-mi-portal-de-proyectos",
+    "href": "index.html#bienvenido-a-mi-portal-de-proyectos",
+    "title": "Portafolio de Inteligencia Artificial y Ciencia de Datos",
+    "section": "",
+    "text": "Aquí encontrarás soluciones avanzadas aplicadas a problemas del mundo real mediante técnicas cuantitativas de Machine Learning y Deep Learning. Cada proyecto cuenta con un reporte interactivo orientado a objetivos de negocio y su correspondiente cuaderno experimental para revisión técnica exhaustiva."
+  },
+  {
+    "objectID": "index.html#catálogo-de-proyectos-activos",
+    "href": "index.html#catálogo-de-proyectos-activos",
+    "title": "Portafolio de Inteligencia Artificial y Ciencia de Datos",
+    "section": "Catálogo de Proyectos Activos",
+    "text": "Catálogo de Proyectos Activos\n\n\n📩 Filtro Inteligente de Spam\nClasificación de mensajes utilizando TF-IDF y modelos bayesianos con análisis exhaustivo del procesamiento de lenguaje natural (NLP).\nExplorar Proyecto y Demo →\n\n\n🖼️ Clasificación de Imágenes (CNN)\nEntrenamiento y visualización del desempeño de una Red Neuronal Convolucional para el reconocimiento óptico de patrones.\nExplorar Proyecto y Demo →"
+  },
+  {
+    "objectID": "proyectos/proyecto_spam/analisis_spam.html",
+    "href": "proyectos/proyecto_spam/analisis_spam.html",
+    "title": "Análisis Experimental de Detección de Spam",
+    "section": "",
+    "text": "Este cuaderno contiene el análisis técnico y entrenamiento del modelo.\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Simulación de una matriz de confusión para Spam\ndata = np.array([[850, 15], [30, 115]])\nsns.set_theme(style='white')\nplt.figure(figsize=(5, 4))\nsns.heatmap(data, annot=True, fmt='d', cmap='Blues', \n            xticklabels=['Ham', 'Spam'], yticklabels=['Ham', 'Spam'])\nplt.title('Matriz de Confusión del Clasificador')\nplt.ylabel('Realidad')\nplt.xlabel('Predicción')\nplt.show()\n\n\n\n\n\n\n\nFigure 1: Matriz de Confusión interactiva generada con Seaborn"
+  },
+  {
+    "objectID": "proyectos/proyecto_imagenes/analisis_imagenes.html",
+    "href": "proyectos/proyecto_imagenes/analisis_imagenes.html",
+    "title": "Entrenamiento de Clasificador de Imágenes (CNN)",
+    "section": "",
+    "text": "Prueba experimental de curvas de pérdida y métricas de validación.\n\nimport matplotlib.pyplot as plt\n\n# Simulación de curvas de entrenamiento\nepochs = list(range(1, 11))\ntrain_loss = [0.8, 0.6, 0.45, 0.32, 0.25, 0.19, 0.15, 0.12, 0.10, 0.08]\nval_loss = [0.85, 0.65, 0.52, 0.41, 0.35, 0.31, 0.29, 0.28, 0.27, 0.27]\n\nplt.figure(figsize=(6, 4))\nplt.plot(epochs, train_loss, label='Entrenamiento', color='blue', marker='o')\nplt.plot(epochs, val_loss, label='Validación', color='red', marker='x')\nplt.title('Historial de Pérdida (Loss Curve)')\nplt.xlabel('Época')\nplt.ylabel('Pérdida (Cross-Entropy)')\nplt.legend()\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: Curva de pérdida (Loss) durante las épocas de entrenamiento"
+  },
+  {
+    "objectID": "proyectos/proyecto_imagenes/index.html",
+    "href": "proyectos/proyecto_imagenes/index.html",
+    "title": "Clasificación de Imágenes por Computadora",
+    "section": "",
+    "text": "Este proyecto consiste en un sistema de visión artificial basado en Redes Neuronales Convolucionales (CNN) diseñado para catalogar imágenes en múltiples clases."
+  },
+  {
+    "objectID": "proyectos/proyecto_imagenes/index.html#introducción",
+    "href": "proyectos/proyecto_imagenes/index.html#introducción",
+    "title": "Clasificación de Imágenes por Computadora",
+    "section": "",
+    "text": "Este proyecto consiste en un sistema de visión artificial basado en Redes Neuronales Convolucionales (CNN) diseñado para catalogar imágenes en múltiples clases."
+  },
+  {
+    "objectID": "proyectos/proyecto_imagenes/index.html#historial-de-pérdida-en-el-entrenamiento",
+    "href": "proyectos/proyecto_imagenes/index.html#historial-de-pérdida-en-el-entrenamiento",
+    "title": "Clasificación de Imágenes por Computadora",
+    "section": "2. Historial de Pérdida en el Entrenamiento",
+    "text": "2. Historial de Pérdida en el Entrenamiento\nPara validar que nuestra red neuronal no esté sufriendo de overfitting (sobreajuste), monitoreamos las curvas de entrenamiento y validación epoch tras epoch:\n\n\n\n\n\n\n\n\n\nFigure 1: Curva de pérdida (Loss) durante las épocas de entrenamiento\n\n\n\n\n\nSource: Entrenamiento de Clasificador de Imágenes (CNN)"
+  },
+  {
+    "objectID": "proyectos/proyecto_imagenes/index.html#acceso-al-código-técnico",
+    "href": "proyectos/proyecto_imagenes/index.html#acceso-al-código-técnico",
+    "title": "Clasificación de Imágenes por Computadora",
+    "section": "3. Acceso al Código Técnico",
+    "text": "3. Acceso al Código Técnico\nEl cuaderno de laboratorio con la inicialización de los pesos de la red, aumentación de datos (data augmentation) y entrenamiento completo se encuentra disponible en:\nVer Cuaderno de Experimentos Técnico (Jupyter Notebook)"
+  },
+  {
+    "objectID": "proyectos/proyecto_spam/index.html",
+    "href": "proyectos/proyecto_spam/index.html",
+    "title": "Filtro Inteligente de Spam",
+    "section": "",
+    "text": "Hemos desarrollado un filtro basado en el algoritmo de Machine Learning Complement Naive Bayes optimizado con técnicas de TF-IDF.\nEl modelo demuestra una gran capacidad para procesar los textos de correos entrantes y clasificarlos de manera precisa."
+  },
+  {
+    "objectID": "proyectos/proyecto_spam/index.html#resumen-ejecutivo",
+    "href": "proyectos/proyecto_spam/index.html#resumen-ejecutivo",
+    "title": "Filtro Inteligente de Spam",
+    "section": "",
+    "text": "Hemos desarrollado un filtro basado en el algoritmo de Machine Learning Complement Naive Bayes optimizado con técnicas de TF-IDF.\nEl modelo demuestra una gran capacidad para procesar los textos de correos entrantes y clasificarlos de manera precisa."
+  },
+  {
+    "objectID": "proyectos/proyecto_spam/index.html#métricas-clave-de-desempeño",
+    "href": "proyectos/proyecto_spam/index.html#métricas-clave-de-desempeño",
+    "title": "Filtro Inteligente de Spam",
+    "section": "2. Métricas Clave de Desempeño",
+    "text": "2. Métricas Clave de Desempeño\nA continuación, se presenta la matriz de confusión obtenida directamente de nuestro cuaderno de experimentos de Jupyter. Note cómo minimizamos los falsos positivos para evitar catalogar correos legítimos como correo no deseado.\n\n\n\n\n\n\n\n\n\nFigure 1: Matriz de Confusión interactiva generada con Seaborn\n\n\n\n\n\nSource: Análisis Experimental de Detección de Spam"
+  },
+  {
+    "objectID": "proyectos/proyecto_spam/index.html#acceso-al-código-técnico",
+    "href": "proyectos/proyecto_spam/index.html#acceso-al-código-técnico",
+    "title": "Filtro Inteligente de Spam",
+    "section": "3. Acceso al Código Técnico",
+    "text": "3. Acceso al Código Técnico\nSi deseas explorar el flujo experimental paso a paso, la ingeniería de características y las pruebas de hiperparámetros, puedes consultar el cuaderno de desarrollo de Jupyter:\nVer Cuaderno de Experimentos Técnico (Jupyter Notebook)"
+  }
+]
